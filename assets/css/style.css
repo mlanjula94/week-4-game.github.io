@@ -1,0 +1,15 @@
+body { 
+    background-image: url('../images/got.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.img {
+    height: 65%;
+    width: 50%;
+}
+
+.fightSec{
+        visibility: hidden;
+}
