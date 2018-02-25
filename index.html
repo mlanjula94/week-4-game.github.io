@@ -17,35 +17,37 @@
 
 <body>
     <div class="container text-white">
-        <div class="h1">Game Of Thrones RPG</div>
+        <div class="h1">Game Of Thrones RPG
+            <button id="reset" onClick="location.href='index.html'" type="button" class="float-right mt-5 btn btn-outline-light">Reset</button>
+        </div>
         <div id="character-text" class="h3">Choose your character</div>
         <div id="character" class="row">
             <button id="jon" name="Jon Snow" hero=false class="character float-left bg-dark text-white text-center">
                 <div>Jon Snow</div>
                 <img class="img-fluid img" src="assets/images/jon.jpg" alt="Jon Snow">
-                <div class="strength">130</div>
+                <div class="strength">218</div>
             </button>
             <button id="jamie" name="Jamie Lannister" hero=false class="character float-left bg-dark text-white text-center">
                 <div>Jamie Lannister</div>
                 <img class="img-fluid img" src="assets/images/jamie.jpg" alt="Jamie">
-                <div class="strength">120</div>
+                <div class="strength">208</div>
             </button>
             <button id="khal" name="Khal Drogo" hero=false class="character float-left bg-dark text-white text-center">
                 <div>Khal Drogo</div>
                 <img class="img-fluid img" src="assets/images/khal.jpg" alt="Khal Drogo">
-                <div class="strength">150</div>
+                <div class="strength">195</div>
             </button>
 
             <button id="hound" name="The Hound" hero=false class="character float-left bg-dark text-white text-center">
                 <div>The Hound</div>
                 <img class="img-fluid img" src="assets/images/hound.jpeg" alt="The hound">
-                <div class="strength">135</div>
+                <div class="strength">205</div>
             </button>
 
             <button id="brienne" name="Brienne of Tarth" hero=false class="character float-left bg-dark text-white text-center">
                 <div>Brienne of Tarth</div>
                 <img class="img-fluid img" src="assets/images/brienne.jpg" alt="Brienne">
-                <div class="strength">140</div>
+                <div class="strength">200</div>
             </button>
             <button id="ed" name="Ed Sheran" hero=false class="character float-left bg-dark text-white text-center">
                 <div>Ed Sheran</div>
@@ -55,28 +57,36 @@
             <button id="mountain" name="The Mountain" hero=false class="character float-left bg-dark text-white text-center">
                 <div>The Mountain</div>
                 <img class="img-fluid img" src="assets/images/moutain.jpg" alt="Mountain">
-                <div class="strength">180</div>
+                <div class="strength">210</div>
             </button>
 
         </div>
         <div class="row">
             <div class="hero col-md-4">
             </div>
-            <div class="col-md-4 fightSec">
-                    <div class="h3 ">Fight Section </div>
-                    <button id="fight" type="button" class="ml-5 btn btn-warning">Fight</button>
+            <div class="col-md-4 fightSec text-center fightBtnSec ">
+                <div class="h3">Fight Section </div>
+                <div class="row">
+                    <button id="fight" type="button" class="btn btn-warning btn-block">Fight</button>
                 </div>
-                <div class="col-md-4 fightSec">
-                    <div class="defender"><p class="h3">defender</p></div>
+
+            </div>
+            <div class="col-md-4 text-center fightSec">
+                <div class="defender float-right">
+                    <p class="h3 text-center">defender</p> 
                 </div>
-        
+            </div>
+
         </div>
         <div class="row">
             <p class="h3">Available enemies</p>
             <hr>
-            <div class="enemies"></div>
         </div>
-       
+        <div class="row">
+            <div class="enemies"></div>
+
+        </div>
+
     </div>
     </div>
 
